@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imaginarium</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+        .contact-form input, .contact-form textarea {
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Nadine's persönliche Webseite</h1>
+    <p>Willkommen auf meiner Seite!</p>
+</header>
+
+<section>
+    <h2>Über mich</h2>
+    <p>Ich bin Nadine, Projektmanagerin in der Energiewirtschaftsberatung und interessiere mich leidenschaftlich für Veganismus, Umweltschutz und Tierschutz. In meiner Freizeit beschäftige ich mich gerne mit künstlerischen Tätigkeiten wie Häkeln, Zeichnen und digitaler Kunst.</p>
+
+    <h2>Projekte</h2>
+    <p>Ich betreibe einen Etsy-Shop, in dem ich selbstgemachte Sachen wie Mützen und Handschuhe anbiete. Außerdem habe ich ein Ausmalbuch auf Amazon und Etsy veröffentlicht.</p>
+    <p>Hier ist mein <a href="https://www.shutterstock.com/g/naknoe" target="_blank">Shutterstock-Profil</a>, wo meine Fotografien zum Download verfügbar sind.</p>
+
+    <h2>Kontakt</h2>
+    <form class="contact-form">
+        <input type="text" name="name" placeholder="Ihr Name" required>
+        <input type="email" name="email" placeholder="Ihre E-Mail" required>
+        <textarea name="message" rows="5" placeholder="Ihre Nachricht" required></textarea>
+        <button type="submit">Nachricht senden</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Nadine. Alle Rechte vorbehalten.</p>
+</footer>
+
+</body>
+</html>
